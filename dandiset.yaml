@@ -5,10 +5,7 @@ about:
 - identifier: UBERON:0002956
   name: primary motor cortex
   schemaKey: Anatomy
-access:
-- contactPoint:
-    schemaKey: ContactPoint
-  status: dandi:Open
+access: []
 contributor:
 - affiliation: []
   email: mc3502@columbia.edu
@@ -25,41 +22,6 @@ contributor:
   roleName:
   - dandi:Author
   - dandi:DataCollector
-  schemaKey: Person
-- affiliation: []
-  includeInCitation: true
-  name: John P. Cunningham
-  roleName:
-  - dandi:Author
-  schemaKey: Person
-- affiliation: []
-  includeInCitation: true
-  name: Justin D. Foster
-  roleName:
-  - dandi:Author
-  schemaKey: Person
-- affiliation: []
-  includeInCitation: true
-  name: Paul Nuyujukian
-  roleName: []
-  schemaKey: Person
-- affiliation: []
-  includeInCitation: true
-  name: Stephen I. Ryu
-  roleName:
-  - dandi:Author
-  schemaKey: Person
-- affiliation:
-  - contactPoint: []
-    includeInCitation: false
-    name: Department of Electrical Engineering, Stanford University, Stanford, California
-      94305, USA
-    roleName: []
-    schemaKey: Organization
-  includeInCitation: true
-  name: Krishna V. Shenoy
-  roleName:
-  - dandi:Author
   schemaKey: Person
 description: Monkeys recordings of Motor Cortex (M1) and dorsal Premotor Cortex (PMd)
   using two 96 channel high density Utah Arrays (Blackrock Microsystems) while performing
