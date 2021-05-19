@@ -7,7 +7,8 @@ about:
   name: primary motor cortex
   schemaKey: Anatomy
 access: []
-citation: 'Mark M. Churchland; Matthew T. Kaufman (2021) Neural population dynamics
+citation: 'Mark M. Churchland; Matthew T. Kaufman; John P. Cunningham; Justin D. Foster;
+  Paul Nuyujukian; Stephen I. Ryu; Krishna V. Shenoy (2021) Neural population dynamics
   during reaching. Online: https://dandiarchive.org/000070/draft'
 contributor:
 - affiliation: []
@@ -26,6 +27,36 @@ contributor:
   - dandi:Author
   - dandi:DataCollector
   schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: John P. Cunningham
+  roleName:
+  - dandi:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Justin D. Foster
+  roleName:
+  - dandi:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Paul Nuyujukian
+  roleName:
+  - dandi:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Stephen I. Ryu
+  roleName:
+  - dandi:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Krishna V. Shenoy
+  roleName:
+  - dandi:Author
+  schemaKey: Person
 description: Monkeys recordings of Motor Cortex (M1) and dorsal Premotor Cortex (PMd)
   using two 96 channel high density Utah Arrays (Blackrock Microsystems) while performing
   reaching tasks with right hand.
@@ -43,6 +74,41 @@ relatedResource:
   relation: dandi:IsDescribedBy
   repository: doi:10.1038/nature11129
   url: https://www.nature.com/articles/nature11129
+- name: 'Cortical preparatory activity: representation of movement or first cog in
+    a dynamical machine?'
+  relation: dandi:IsSupplementTo
+  url: 10.1016/j.neuron.2010.09.015
+- name: The roles of monkey M1 neuron classes in movement preparation and execution
+  relation: dandi:IsSupplementTo
+  url: 10.1152/jn.00892.2011
+- identifier: 10.1038/nn.3643
+  name: 'Cortical activity in the null space: permitting preparation without movement'
+  relation: dandi:IsSupplementTo
+  url: 10.1038/nn.3643
+- identifier: 10.1038/nn.4042
+  name: A neural network that finds a naturalistic solution for the production of
+    muscle activity.
+  relation: dandi:IsSupplementTo
+  url: 10.1038/nn.4042
+- identifier: 10.1146/annurev-neuro-062111-150509
+  name: 'Cortical control of arm movements: a dynamical systems perspective. Annual
+    Review of Neuroscience'
+  relation: dandi:IsSupplementTo
+  url: 10.1146/annurev-neuro-062111-150509
+- identifier: 10.7554/eLife.04677
+  name: Vacillation, indecision and hesitation in moment-by-moment decoding of monkey
+    motor cortex
+  relation: dandi:IsSupplementTo
+  url: 10.7554/eLife.04677
+- identifier: 10.1523/ENEURO.0085-16.2016
+  name: ' The Largest  Response Component in the Motor Cortex Reflects Movement Timing
+    but Not Movement Type'
+  relation: dandi:IsSupplementTo
+  url: 10.1523/ENEURO.0085-16.2016
+- name: Pandarinath, C., O’Shea, D.J., Collins, J. et al. Inferring single-trial neural
+    population dynamics using sequential auto-encoders.
+  relation: dandi:IsSupplementTo
+  url: https://doi-org.stanford.idm.oclc.org/10.1038/s41592-018-0109-9
 repository: https://dandiarchive.org/
 schemaVersion: 0.3.0
 studyTarget: []
