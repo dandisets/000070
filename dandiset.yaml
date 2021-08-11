@@ -147,10 +147,11 @@ manifestLocation:
 name: Neural population dynamics during reaching
 protocol: []
 relatedResource:
-- identifier: 10.1038/nature11129
+- identifier: https://doi.org/10.1038/nature11129
   name: Neural Population dynamics during reaching
   relation: dcite:IsDescribedBy
   repository: Nature
+  schemaKey: Resource
   url: https://www.nature.com/articles/nature11129
 - identifier: 10.1016/j.neuron.2010.09.015
   name: 'Cortical preparatory activity: representation of movement or first cog in
