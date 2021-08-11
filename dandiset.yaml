@@ -7,9 +7,31 @@ about:
   name: primary motor cortex
 access: []
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: behavioral approach
+    schemaKey: ApproachType
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 35470402101
+  numberOfFiles: 7
+  numberOfSubjects: 2
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9544
+    name: Rhesus monkey
+    schemaKey: SpeciesType
+  variableMeasured:
+  - Position
+  - Units
 citation: Churchland, Mark; Cunningham, John P.; Kaufman, Matthew T.; Foster, Justin
   D.; Nuyujukian, Paul; Ryu, Stephen I.; Shenoy, Krishna V. (2021) Neural population
   dynamics during reaching (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000070/draft
