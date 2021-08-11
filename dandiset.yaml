@@ -5,61 +5,111 @@
 about:
 - identifier: UBERON:0002956
   name: primary motor cortex
-  schemaKey: Anatomy
 access: []
 assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Mark M. Churchland; Matthew T. Kaufman; John P. Cunningham; Justin D. Foster;
-  Paul Nuyujukian; Stephen I. Ryu; Krishna V. Shenoy (2021) Neural population dynamics
-  during reaching (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000070/draft
+citation: Churchland, Mark; Cunningham, John P.; Kaufman, Matthew T.; Foster, Justin
+  D.; Nuyujukian, Paul; Ryu, Stephen I.; Shenoy, Krishna V. (2021) Neural population
+  dynamics during reaching (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000070/draft
 contributor:
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/00f54p054
+    name: Department of Electrical Engineering, Stanford University, Stanford, 94305,
+      California, USA
+    schemaKey: Affiliation
+  - identifier: https://ror.org/00hj8s172
+    name: Department of Neuroscience, Kavli Institute for Brain Science, David Mahoney
+      Center, Columbia University Medical Center, New York, 10032, New York, USA
+    schemaKey: Affiliation
   email: mc3502@columbia.edu
+  identifier: 0000-0001-9123-6526
   includeInCitation: true
-  name: Mark M. Churchland
+  name: Churchland, Mark
+  roleName:
+  - dcite:Author
+  - dcite:DataCollector
+  - dcite:ContactPerson
+  schemaKey: Person
+  url: https://pubmed.ncbi.nlm.nih.gov/?cmd=search&term=Mark+M.+Churchland
+- affiliation:
+  - identifier: https://ror.org/01yc7t268
+    name: Department of Biomedical Engineering, Washington University in St Louis,
+      St Louis, 63130, Missouri, USA
+    schemaKey: Affiliation
+  email: jpc2181@columbia.edu
+  includeInCitation: true
+  name: Cunningham, John P.
   roleName:
   - dcite:Author
   - dcite:DataCollector
   schemaKey: Person
-- affiliation: []
+  url: https://pubmed.ncbi.nlm.nih.gov/?term=Cunningham+JP&cauthor_id=30877963
+- affiliation:
+  - identifier: https://ror.org/00f54p054
+    name: Department of Electrical Engineering, Stanford University, Stanford, 94305,
+      California, USA
+    schemaKey: Affiliation
   email: mattkaufman@uchicago.edu
+  identifier: 0000-0002-8072-023X
   includeInCitation: true
-  name: Matthew T. Kaufman
-  roleName:
-  - dcite:Author
-  - dcite:DataCollector
-  schemaKey: Person
-- affiliation: []
-  includeInCitation: true
-  name: John P. Cunningham
+  name: Kaufman, Matthew T.
   roleName:
   - dcite:Author
   schemaKey: Person
-- affiliation: []
+  url: https://pubmed.ncbi.nlm.nih.gov/?cmd=search&term=Matthew+T.+Kaufman
+- affiliation:
+  - identifier: https://ror.org/00f54p054
+    name: Department of Electrical Engineering, Stanford University, Stanford, 94305,
+      California, USA
+    schemaKey: Affiliation
   includeInCitation: true
-  name: Justin D. Foster
+  name: Foster, Justin D.
   roleName:
   - dcite:Author
   schemaKey: Person
-- affiliation: []
+  url: https://pubmed.ncbi.nlm.nih.gov/?cmd=search&term=Justin+D.+Foster
+- affiliation:
+  - identifier: https://ror.org/00f54p054
+    name: Department of Bioengineering, Stanford University, Stanford, 94705, California,
+      USA
+    schemaKey: Affiliation
   includeInCitation: true
-  name: Paul Nuyujukian
+  name: Nuyujukian, Paul
   roleName:
   - dcite:Author
   schemaKey: Person
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/00f54p054
+    name: Department of Electrical Engineering, Stanford University, Stanford, 94305,
+      California, USA
+    schemaKey: Affiliation
   includeInCitation: true
-  name: Stephen I. Ryu
+  name: Ryu, Stephen I.
   roleName:
   - dcite:Author
   schemaKey: Person
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/00f54p054
+    name: Department of Electrical Engineering, Stanford University, Stanford, 94305,
+      California, USA
+    schemaKey: Affiliation
+  email: shenoy@stanford.edu
+  identifier: 0000-0003-1534-9240
   includeInCitation: true
-  name: Krishna V. Shenoy
+  name: Shenoy, Krishna V.
   roleName:
   - dcite:Author
+  schemaKey: Person
+  url: https://pubmed.ncbi.nlm.nih.gov/?cmd=search&term=Krishna+V.+Shenoy
+- affiliation: []
+  email: saksham20.sharda@gmail.com
+  includeInCitation: false
+  name: Sharda, Saksham
+  roleName:
+  - dcite:Maintainer
+  - dcite:ContactPerson
   schemaKey: Person
 description: Monkeys recordings of Motor Cortex (M1) and dorsal Premotor Cortex (PMd)
   using two 96 channel high density Utah Arrays (Blackrock Microsystems) while performing
@@ -68,49 +118,59 @@ ethicsApproval: []
 id: DANDI:000070/draft
 identifier: DANDI:000070
 keywords: []
-license: []
+license:
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000070/versions/draft/assets/
 name: Neural population dynamics during reaching
 protocol: []
 relatedResource:
-- identifier: https://www.nature.com/articles/nature11129
+- identifier: 10.1038/nature11129
   name: Neural Population dynamics during reaching
   relation: dcite:IsDescribedBy
-  repository: doi:10.1038/nature11129
+  repository: Nature
   url: https://www.nature.com/articles/nature11129
-- name: 'Cortical preparatory activity: representation of movement or first cog in
+- identifier: 10.1016/j.neuron.2010.09.015
+  name: 'Cortical preparatory activity: representation of movement or first cog in
     a dynamical machine?'
   relation: dcite:IsSupplementTo
-  url: 10.1016/j.neuron.2010.09.015
-- name: The roles of monkey M1 neuron classes in movement preparation and execution
+  repository: Neuron
+  url: https://www.sciencedirect.com/science/article/pii/S0896627310007579
+- identifier: 10.1152/jn.00892.2011
+  name: The roles of monkey M1 neuron classes in movement preparation and execution
   relation: dcite:IsSupplementTo
-  url: 10.1152/jn.00892.2011
+  repository: Journal of Neurophysiology
+  url: https://journals.physiology.org/doi/full/10.1152/jn.00892.2011
 - identifier: 10.1038/nn.3643
   name: 'Cortical activity in the null space: permitting preparation without movement'
   relation: dcite:IsSupplementTo
-  url: 10.1038/nn.3643
+  repository: 'Nature '
+  url: https://www.nature.com/articles/nn.3643
 - identifier: 10.1038/nn.4042
   name: A neural network that finds a naturalistic solution for the production of
     muscle activity.
   relation: dcite:IsSupplementTo
-  url: 10.1038/nn.4042
+  repository: Nature Neuroscience
+  url: https://www.nature.com/articles/nn.4042
 - identifier: 10.1146/annurev-neuro-062111-150509
   name: 'Cortical control of arm movements: a dynamical systems perspective. Annual
     Review of Neuroscience'
   relation: dcite:IsSupplementTo
-  url: 10.1146/annurev-neuro-062111-150509
+  url: https://www.annualreviews.org/doi/10.1146/annurev-neuro-062111-150509
 - identifier: 10.7554/eLife.04677
   name: Vacillation, indecision and hesitation in moment-by-moment decoding of monkey
     motor cortex
   relation: dcite:IsSupplementTo
-  url: 10.7554/eLife.04677
+  repository: elife
+  url: https://elifesciences.org/articles/04677
 - identifier: 10.1523/ENEURO.0085-16.2016
   name: ' The Largest  Response Component in the Motor Cortex Reflects Movement Timing
     but Not Movement Type'
   relation: dcite:IsSupplementTo
-  url: 10.1523/ENEURO.0085-16.2016
-- name: Pandarinath, C., O’Shea, D.J., Collins, J. et al. Inferring single-trial neural
+  repository: eneuro
+  url: https://www.eneuro.org/content/3/4/ENEURO.0085-16.2016
+- identifier: 10.1038/s41592-018-0109-9
+  name: Pandarinath, C., O’Shea, D.J., Collins, J. et al. Inferring single-trial neural
     population dynamics using sequential auto-encoders.
   relation: dcite:IsSupplementTo
   url: https://doi-org.stanford.idm.oclc.org/10.1038/s41592-018-0109-9
