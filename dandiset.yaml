@@ -5,6 +5,8 @@
 about:
 - identifier: UBERON:0002956
   name: primary motor cortex
+- identifier: UBERON:0016634
+  name: premotor cortex
 access: []
 assetsSummary:
   approach:
@@ -133,6 +135,7 @@ contributor:
   - dcite:Maintainer
   - dcite:ContactPerson
   schemaKey: Person
+dateCreated: '2021-05-05T10:28:31.757937+00:00'
 description: Monkeys recordings of Motor Cortex (M1) and dorsal Premotor Cortex (PMd)
   using two 96 channel high density Utah Arrays (Blackrock Microsystems) while performing
   reaching tasks with right hand.
@@ -151,51 +154,50 @@ relatedResource:
   name: Neural Population dynamics during reaching
   relation: dcite:IsDescribedBy
   repository: Nature
-  schemaKey: Resource
   url: https://www.nature.com/articles/nature11129
 - identifier: 10.1016/j.neuron.2010.09.015
   name: 'Cortical preparatory activity: representation of movement or first cog in
     a dynamical machine?'
-  relation: dcite:IsSupplementTo
+  relation: dcite:IsReferencedBy
   repository: Neuron
   url: https://www.sciencedirect.com/science/article/pii/S0896627310007579
 - identifier: 10.1152/jn.00892.2011
   name: The roles of monkey M1 neuron classes in movement preparation and execution
-  relation: dcite:IsSupplementTo
+  relation: dcite:IsReferencedBy
   repository: Journal of Neurophysiology
   url: https://journals.physiology.org/doi/full/10.1152/jn.00892.2011
 - identifier: 10.1038/nn.3643
   name: 'Cortical activity in the null space: permitting preparation without movement'
-  relation: dcite:IsSupplementTo
+  relation: dcite:IsReferencedBy
   repository: 'Nature '
   url: https://www.nature.com/articles/nn.3643
 - identifier: 10.1038/nn.4042
   name: A neural network that finds a naturalistic solution for the production of
     muscle activity.
-  relation: dcite:IsSupplementTo
+  relation: dcite:IsReferencedBy
   repository: Nature Neuroscience
   url: https://www.nature.com/articles/nn.4042
 - identifier: 10.1146/annurev-neuro-062111-150509
   name: 'Cortical control of arm movements: a dynamical systems perspective. Annual
     Review of Neuroscience'
-  relation: dcite:IsSupplementTo
+  relation: dcite:IsReferencedBy
   url: https://www.annualreviews.org/doi/10.1146/annurev-neuro-062111-150509
 - identifier: 10.7554/eLife.04677
   name: Vacillation, indecision and hesitation in moment-by-moment decoding of monkey
     motor cortex
-  relation: dcite:IsSupplementTo
+  relation: dcite:IsReferencedBy
   repository: elife
   url: https://elifesciences.org/articles/04677
 - identifier: 10.1523/ENEURO.0085-16.2016
   name: ' The Largest  Response Component in the Motor Cortex Reflects Movement Timing
     but Not Movement Type'
-  relation: dcite:IsSupplementTo
+  relation: dcite:IsReferencedBy
   repository: eneuro
   url: https://www.eneuro.org/content/3/4/ENEURO.0085-16.2016
 - identifier: 10.1038/s41592-018-0109-9
-  name: Pandarinath, C., O’Shea, D.J., Collins, J. et al. Inferring single-trial neural
-    population dynamics using sequential auto-encoders.
-  relation: dcite:IsSupplementTo
+  name: Inferring single-trial neural population dynamics using sequential auto-encoders.
+  relation: dcite:IsReferencedBy
+  schemaKey: Resource
   url: https://doi-org.stanford.idm.oclc.org/10.1038/s41592-018-0109-9
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
