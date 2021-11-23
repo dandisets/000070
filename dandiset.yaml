@@ -137,6 +137,15 @@ contributor:
   - dcite:Maintainer
   - dcite:ContactPerson
   schemaKey: Person
+- awardNumber: https://www.simonsfoundation.org/collaborations/global-brain/data-sharing-initiatives/
+  contactPoint: []
+  includeInCitation: false
+  name: Simons Foundation
+  roleName:
+  - dcite:Funder
+  - dcite:Sponsor
+  schemaKey: Organization
+  url: https://www.simonsfoundation.org/
 dateCreated: '2021-05-05T10:28:31.757937+00:00'
 description: Monkeys recordings of Motor Cortex (M1) and dorsal Premotor Cortex (PMd)
   using two 96 channel high density Utah Arrays (Blackrock Microsystems) while performing
