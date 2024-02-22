@@ -9,7 +9,9 @@ about:
 - identifier: UBERON:0016634
   name: premotor cortex
   schemaKey: Anatomy
-access: []
+access:
+- schemaKey: AccessRequirements
+  status: dandi:OpenAccess
 assetsSummary:
   approach:
   - name: behavioral approach
@@ -37,7 +39,7 @@ assetsSummary:
   - Position
   - Units
 citation: Churchland, Mark; Cunningham, John P.; Kaufman, Matthew T.; Foster, Justin
-  D.; Nuyujukian, Paul; Ryu, Stephen I.; Shenoy, Krishna V. (2022) Neural population
+  D.; Nuyujukian, Paul; Ryu, Stephen I.; Shenoy, Krishna V. (2024) Neural population
   dynamics during reaching (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000070/draft
 contributor:
 - affiliation:
@@ -218,7 +220,7 @@ relatedResource:
   relation: dcite:IsReferencedBy
   schemaKey: Resource
   url: https://doi-org.stanford.idm.oclc.org/10.1038/s41592-018-0109-9
-repository: https://dandiarchive.org/
+repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.0
 studyTarget: []
