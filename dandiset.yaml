@@ -54,7 +54,7 @@ assetsSummary:
   - SpatialSeries
 citation: Churchland, Mark; Cunningham, John P.; Kaufman, Matthew T.; Foster, Justin
   D.; Nuyujukian, Paul; Ryu, Stephen I.; Shenoy, Krishna V. (2025) Neural population
-  dynamics during reaching (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000070/draft
+  dynamics during reaching (Version 0.251218.1714) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.000070/0.251218.1714
 contributor:
 - affiliation:
   - identifier: https://ror.org/00f54p054
@@ -164,19 +164,33 @@ contributor:
   schemaKey: Organization
   url: https://www.simonsfoundation.org/
 dateCreated: '2021-05-05T10:28:31.757937+00:00'
+datePublished: '2025-12-18T17:14:46.353235+00:00'
 description: Monkeys recordings of Motor Cortex (M1) and dorsal Premotor Cortex (PMd)
   using two 96 channel high density Utah Arrays (Blackrock Microsystems) while performing
   reaching tasks with right hand.
+doi: 10.48324/dandi.000070/0.251218.1714
 ethicsApproval: []
-id: DANDI:000070/draft
+id: DANDI:000070/0.251218.1714
 identifier: DANDI:000070
 keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000070/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000070/0.251218.1714/assets.yaml
 name: Neural population dynamics during reaching
 protocol: []
+publishedBy:
+  endDate: '2025-12-18T17:14:46.353235+00:00'
+  id: urn:uuid:2ff2d1d7-531a-43af-b4eb-5d7a9024f9d3
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2025-12-18T17:14:46.353235+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:d30c990b-b8bf-40b1-9ae1-5694cfccaa2d
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: https://doi.org/10.1038/nature11129
   name: Neural Population dynamics during reaching
@@ -239,6 +253,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.0
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000070/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000070/0.251218.1714
+version: 0.251218.1714
 wasGeneratedBy: []
