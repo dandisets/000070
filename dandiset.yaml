@@ -53,17 +53,15 @@ assetsSummary:
   - ProcessingModule
   - SpatialSeries
 citation: Churchland, Mark; Cunningham, John P.; Kaufman, Matthew T.; Foster, Justin
-  D.; Nuyujukian, Paul; Ryu, Stephen I.; Shenoy, Krishna V. (2025) Neural population
+  D.; Nuyujukian, Paul; Ryu, Stephen I.; Shenoy, Krishna V. (2026) Neural population
   dynamics during reaching (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000070/draft
 contributor:
 - affiliation:
   - identifier: https://ror.org/00f54p054
-    name: Department of Electrical Engineering, Stanford University, Stanford, 94305,
-      California, USA
+    name: Stanford University
     schemaKey: Affiliation
   - identifier: https://ror.org/00hj8s172
-    name: Department of Neuroscience, Kavli Institute for Brain Science, David Mahoney
-      Center, Columbia University Medical Center, New York, 10032, New York, USA
+    name: Columbia University Medical Center
     schemaKey: Affiliation
   email: mc3502@columbia.edu
   identifier: 0000-0001-9123-6526
@@ -74,24 +72,24 @@ contributor:
   - dcite:DataCollector
   - dcite:ContactPerson
   schemaKey: Person
-  url: https://pubmed.ncbi.nlm.nih.gov/?cmd=search&term=Mark+M.+Churchland
 - affiliation:
   - identifier: https://ror.org/01yc7t268
-    name: Department of Biomedical Engineering, Washington University in St Louis,
-      St Louis, 63130, Missouri, USA
+    name: Washington University in St Louis
+    schemaKey: Affiliation
+  - identifier: https://ror.org/013meh722
+    name: University of Cambridge
     schemaKey: Affiliation
   email: jpc2181@columbia.edu
+  identifier: 0000-0001-9125-3027
   includeInCitation: true
   name: Cunningham, John P.
   roleName:
   - dcite:Author
   - dcite:DataCollector
   schemaKey: Person
-  url: https://pubmed.ncbi.nlm.nih.gov/?term=Cunningham+JP&cauthor_id=30877963
 - affiliation:
   - identifier: https://ror.org/00f54p054
-    name: Department of Electrical Engineering, Stanford University, Stanford, 94305,
-      California, USA
+    name: Stanford University
     schemaKey: Affiliation
   email: mattkaufman@uchicago.edu
   identifier: 0000-0002-8072-023X
@@ -100,23 +98,20 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
-  url: https://pubmed.ncbi.nlm.nih.gov/?cmd=search&term=Matthew+T.+Kaufman
 - affiliation:
   - identifier: https://ror.org/00f54p054
-    name: Department of Electrical Engineering, Stanford University, Stanford, 94305,
-      California, USA
+    name: Stanford University
     schemaKey: Affiliation
   includeInCitation: true
   name: Foster, Justin D.
   roleName:
   - dcite:Author
   schemaKey: Person
-  url: https://pubmed.ncbi.nlm.nih.gov/?cmd=search&term=Justin+D.+Foster
 - affiliation:
   - identifier: https://ror.org/00f54p054
-    name: Department of Bioengineering, Stanford University, Stanford, 94705, California,
-      USA
+    name: Stanford University
     schemaKey: Affiliation
+  identifier: 0000-0001-7778-5473
   includeInCitation: true
   name: Nuyujukian, Paul
   roleName:
@@ -124,9 +119,9 @@ contributor:
   schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/00f54p054
-    name: Department of Electrical Engineering, Stanford University, Stanford, 94305,
-      California, USA
+    name: Stanford University
     schemaKey: Affiliation
+  identifier: 0000-0002-2009-8733
   includeInCitation: true
   name: Ryu, Stephen I.
   roleName:
@@ -134,8 +129,7 @@ contributor:
   schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/00f54p054
-    name: Department of Electrical Engineering, Stanford University, Stanford, 94305,
-      California, USA
+    name: Stanford University
     schemaKey: Affiliation
   email: shenoy@stanford.edu
   identifier: 0000-0003-1534-9240
@@ -144,7 +138,6 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
-  url: https://pubmed.ncbi.nlm.nih.gov/?cmd=search&term=Krishna+V.+Shenoy
 - affiliation: []
   email: saksham20.sharda@gmail.com
   includeInCitation: false
@@ -170,7 +163,12 @@ description: Monkeys recordings of Motor Cortex (M1) and dorsal Premotor Cortex 
 ethicsApproval: []
 id: DANDI:000070/draft
 identifier: DANDI:000070
-keywords: []
+keywords:
+- motor control
+- neural dynamics
+- Utah Array
+- population dynamics
+- reaching
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
