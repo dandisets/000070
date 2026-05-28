@@ -54,7 +54,7 @@ assetsSummary:
   - SpatialSeries
 citation: Churchland, Mark; Cunningham, John P.; Kaufman, Matthew T.; Foster, Justin
   D.; Nuyujukian, Paul; Ryu, Stephen I.; Shenoy, Krishna V. (2026) Neural population
-  dynamics during reaching (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000070/draft
+  dynamics during reaching (Version 0.260528.0919) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.000070/0.260528.0919
 contributor:
 - affiliation:
   - identifier: https://ror.org/00f54p054
@@ -176,11 +176,13 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2021-05-05T10:28:31.757937+00:00'
+datePublished: '2026-05-28T09:19:36.331249+00:00'
 description: Monkeys recordings of Motor Cortex (M1) and dorsal Premotor Cortex (PMd)
   using two 96 channel high density Utah Arrays (Blackrock Microsystems) while performing
   reaching tasks with right hand.
+doi: 10.48324/dandi.000070/0.260528.0919
 ethicsApproval: []
-id: DANDI:000070/draft
+id: DANDI:000070/0.260528.0919
 identifier: DANDI:000070
 keywords:
 - motor control
@@ -191,8 +193,20 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000070/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000070/0.260528.0919/assets.yaml
 name: Neural population dynamics during reaching
+publishedBy:
+  endDate: '2026-05-28T09:19:36.331249+00:00'
+  id: urn:uuid:ef110441-15f8-4b79-97ce-1d65260620e5
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-05-28T09:19:36.331249+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:90e87ee5-111a-4b87-8ef2-4c27d57817bb
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: https://doi.org/10.1038/nature11129
   name: Neural Population dynamics during reaching
@@ -261,6 +275,6 @@ schemaKey: Dandiset
 schemaVersion: 0.6.0
 studyTarget:
 - To characterize neural population dynamics in the motor cortex during reaching movements.
-url: https://dandiarchive.org/dandiset/000070/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000070/0.260528.0919
+version: 0.260528.0919
 wasGeneratedBy: []
