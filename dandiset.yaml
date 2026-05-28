@@ -60,7 +60,7 @@ contributor:
   - identifier: https://ror.org/00f54p054
     name: Stanford University
     schemaKey: Affiliation
-  - identifier: https://ror.org/00hj8s172
+  - identifier: https://ror.org/01esghr10
     name: Columbia University Medical Center
     schemaKey: Affiliation
   email: mc3502@columbia.edu
@@ -121,6 +121,9 @@ contributor:
   - identifier: https://ror.org/00f54p054
     name: Stanford University
     schemaKey: Affiliation
+  - identifier: https://ror.org/02xf01n45
+    name: Palo Alto Institute
+    schemaKey: Affiliation
   identifier: 0000-0002-2009-8733
   includeInCitation: true
   name: Ryu, Stephen I.
@@ -149,13 +152,29 @@ contributor:
 - awardNumber: 
     https://www.simonsfoundation.org/collaborations/global-brain/data-sharing-initiatives/
   contactPoint: []
+  identifier: https://ror.org/01cmst727
   includeInCitation: false
   name: Simons Foundation
   roleName:
   - dcite:Funder
   - dcite:Sponsor
+  - dcite:Funder
   schemaKey: Organization
   url: https://www.simonsfoundation.org/
+- affiliation:
+  - identifier: https://ror.org/01d74sk53
+    name: CatalystNeuro
+    schemaKey: Affiliation
+  name: Adkisson-Floro, Paul
+  roleName:
+  - dcite:DataCurator
+  schemaKey: Person
+- awardNumber: EP/H019472/1
+  identifier: https://ror.org/0439y7842
+  name: Engineering and Physical Sciences Research Council
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2021-05-05T10:28:31.757937+00:00'
 description: Monkeys recordings of Motor Cortex (M1) and dorsal Premotor Cortex (PMd)
   using two 96 channel high density Utah Arrays (Blackrock Microsystems) while performing
@@ -174,12 +193,12 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000070/versions/draft/assets/
 name: Neural population dynamics during reaching
-protocol: []
 relatedResource:
 - identifier: https://doi.org/10.1038/nature11129
   name: Neural Population dynamics during reaching
   relation: dcite:IsDescribedBy
   repository: Nature
+  resourceType: dcite:JournalArticle
   schemaKey: Resource
   url: https://www.nature.com/articles/nature11129
 - identifier: 10.1016/j.neuron.2010.09.015
@@ -233,10 +252,15 @@ relatedResource:
   relation: dcite:IsReferencedBy
   schemaKey: Resource
   url: https://doi-org.stanford.idm.oclc.org/10.1038/s41592-018-0109-9
+- name: 'Conversion code: shenoy-lab-to-nwb'
+  relation: dcite:IsCompiledBy
+  schemaKey: Resource
+  url: https://github.com/catalystneuro/shenoy-lab-to-nwb
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.0
-studyTarget: []
+studyTarget:
+- To characterize neural population dynamics in the motor cortex during reaching movements.
 url: https://dandiarchive.org/dandiset/000070/draft
 version: draft
 wasGeneratedBy: []
