@@ -51,7 +51,7 @@ assetsSummary:
   - ElectricalSeries
 citation: Churchland, Mark; Cunningham, John P.; Kaufman, Matthew T.; Foster, Justin
   D.; Nuyujukian, Paul; Ryu, Stephen I.; Shenoy, Krishna V. (2026) Neural population
-  dynamics during reaching (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000070/draft
+  dynamics during reaching (Version 0.261122.2046) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.000070/0.261122.2046
 contributor:
 - affiliation:
   - identifier: https://ror.org/00f54p054
@@ -173,11 +173,13 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2021-05-05T10:28:31.757937+00:00'
+datePublished: '2026-11-22T20:46:29.335860+00:00'
 description: Monkeys recordings of Motor Cortex (M1) and dorsal Premotor Cortex (PMd)
   using two 96 channel high density Utah Arrays (Blackrock Microsystems) while performing
   reaching tasks with right hand.
+doi: 10.48324/dandi.000070/0.261122.2046
 ethicsApproval: []
-id: DANDI:000070/draft
+id: DANDI:000070/0.261122.2046
 identifier: DANDI:000070
 keywords:
 - motor control
@@ -188,8 +190,20 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000070/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000070/0.261122.2046/assets.yaml
 name: Neural population dynamics during reaching
+publishedBy:
+  endDate: '2026-11-22T20:46:29.335860+00:00'
+  id: urn:uuid:2006ad26-16ce-4bfd-9b35-fa52d690d29b
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-11-22T20:46:29.335860+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:83f85100-b627-4964-9242-5ce3f6b4e777
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: https://doi.org/10.1038/nature11129
   name: Neural Population dynamics during reaching
@@ -253,11 +267,49 @@ relatedResource:
   relation: dcite:IsCompiledBy
   schemaKey: Resource
   url: https://github.com/catalystneuro/shenoy-lab-to-nwb
+releaseNotes: "## Changes since version 0.260528.0919\n\nAll ten session files were
+  re-converted with the corrected conversion ([catalystneuro/shenoy-lab-to-nwb](https://github.com/catalystneuro/shenoy-lab-to-nwb),
+  PR [#14](https://github.com/catalystneuro/shenoy-lab-to-nwb/pull/14) and PR [#15](https://github.com/catalystneuro/shenoy-lab-to-nwb/pull/15),
+  issues [#9](https://github.com/catalystneuro/shenoy-lab-to-nwb/issues/9), [#11](https://github.com/catalystneuro/shenoy-lab-to-nwb/issues/11),
+  [#12](https://github.com/catalystneuro/shenoy-lab-to-nwb/issues/12) and [#13](https://github.com/catalystneuro/shenoy-lab-to-nwb/issues/13)).
+  The same sessions are kept. Five Nitschke file names change with their dates.\n\n
+  **Corrections**\n\n- **Nitschke session dates.** The Nitschke sessions are now dated
+  2010. Five of them were dated 2009, so their file names change, for example `sub-Nitschke_ses-20090812`
+  is now `sub-Nitschke_ses-20100812`.\n- **Segment timing.** Trial, spike, position
+  and LFP times are now placed per recording segment. They run forward through every
+  segment. Each segment after the first starts after the previous segment's recordings
+  end.\n- **LFP segments.** Each array's LFP segments no longer overlap. Array A's
+  LFP starts at its segment's offset.\n- **Array B clock.** Array B's LFP is now mapped
+  onto array A's clock, with a linear fit per segment.\n- **Units.** The units are
+  now described as unsorted threshold crossings, one unit per electrode, with a spike
+  time resolution of 1/30,000 s. The first unit now holds all its spikes. Before,
+  its spikes past the 65,536th were in the second unit.\n- **Positions.** Hand and
+  cursor positions are now in mm (a conversion of 0.001 to meters).\n- **Hit target.**
+  `hit_target_position` is now taken from each trial's own entry. It is NaN when no
+  target was hit.\n- **Jenkins's age.** Jenkins's age is now marked as unknown (\"\
+  /\").\n\n**Additions**\n\n- **Trial columns.** The trials table has five new columns:
+  `cursor_offset`, `offline_move_onset_time`, `offline_reaction_time`, `active_target`
+  and `unhittable`. The Nitschke 2010-09-20 and 2010-09-22 sessions have the first
+  three only.\n- **Cursor offset.** `cursor_offset` gives the height of the cursor
+  above the hand (35 mm for Jenkins).\n- **HERD references.** The species is linked
+  to NCBITaxon:9544. The two array locations are linked to UBERON:0016634 and UBERON:0001384.\n
+  - **Nitschke's date of birth.** All Nitschke files now have the date of birth.\n
+  - **Metadata.** Each file now has `session_id` and `keywords`. `related_publications`
+  lists 8 DOI URLs.\n- **Format.** The files are now NWB 2.11.0. `hit_target_position`
+  is stored as float64.\n\n**Known gaps**\n\n- The LFP voltage scale is not in the
+  NSx 2.1 source files. The LFP is stored at 1 µV per step, as before.\n- Eye position
+  has no unit conversion.\n- The electrodes table no longer carries the \"1000Hz\"\
+  \ filtering note, or the placeholder position, impedance, gain and offset columns.\n
+  - In three sessions, the first array B LFP sample is a few ms before time zero.\n
+  - A few spikes per session (29 to 58 of 67 to 112 million in the 108-condition sessions)
+  fall up to 4 picoseconds outside their trial, from floating-point rounding.\n- The
+  center-out sessions of DANDI:000121 are a separate dandiset and are not covered
+  here."
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.0
 studyTarget:
 - To characterize neural population dynamics in the motor cortex during reaching movements.
-url: https://dandiarchive.org/dandiset/000070/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000070/0.261122.2046
+version: 0.261122.2046
 wasGeneratedBy: []
