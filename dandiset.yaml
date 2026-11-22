@@ -15,9 +15,9 @@ access:
   status: dandi:OpenAccess
 assetsSummary:
   approach:
-  - name: behavioral approach
-    schemaKey: ApproachType
   - name: electrophysiological approach
+    schemaKey: ApproachType
+  - name: behavioral approach
     schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
@@ -26,32 +26,29 @@ assetsSummary:
   measurementTechnique:
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  - name: behavioral technique
-    schemaKey: MeasurementTechniqueType
-  - name: multi electrode extracellular electrophysiology recording technique
+  - name: surgical technique
     schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  - name: surgical technique
+  - name: multi electrode extracellular electrophysiology recording technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 69479781152
-  numberOfFiles: 13
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 42651091377
+  numberOfFiles: 9
   numberOfSubjects: 2
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9544
-    name: Rhesus monkey
-    schemaKey: SpeciesType
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9544
     name: Macaca mulatta - Rhesus monkey
     schemaKey: SpeciesType
   variableMeasured:
-  - Position
-  - Units
-  - ElectricalSeries
-  - ElectrodeGroup
   - ProcessingModule
   - SpatialSeries
+  - Position
+  - Units
+  - ElectrodeGroup
+  - ElectricalSeries
 citation: Churchland, Mark; Cunningham, John P.; Kaufman, Matthew T.; Foster, Justin
   D.; Nuyujukian, Paul; Ryu, Stephen I.; Shenoy, Krishna V. (2026) Neural population
   dynamics during reaching (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000070/draft
